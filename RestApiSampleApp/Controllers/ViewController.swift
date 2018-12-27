@@ -19,7 +19,9 @@ class ViewController: UIViewController,UITextFieldDelegate {
         let backgroundImage = UIImageView(frame: UIScreen.main.bounds)
         backgroundImage.image = UIImage(named: "img1.jpg")
         backgroundImage.contentMode = UIView.ContentMode.scaleAspectFill
+        backgroundImage.autoresizingMask = [.flexibleWidth, .flexibleHeight]
         self.view.insertSubview(backgroundImage, at: 0)
+        
     }
     
     
