@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A965EACF21D49ACF003BDDA4 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A965EACE21D49ACF003BDDA4 /* CustomTableViewCell.swift */; };
+		A965EAD121D4A5DC003BDDA4 /* placehoder.png in Resources */ = {isa = PBXBuildFile; fileRef = A965EAD021D4A5DC003BDDA4 /* placehoder.png */; };
+		A965EAD521D4A748003BDDA4 /* img1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A965EAD221D4A748003BDDA4 /* img1.jpg */; };
 		A9DDC08121D39C7500F3FFF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDC08021D39C7500F3FFF7 /* AppDelegate.swift */; };
 		A9DDC08321D39C7500F3FFF7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDC08221D39C7500F3FFF7 /* ViewController.swift */; };
 		A9DDC08621D39C7500F3FFF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DDC08421D39C7500F3FFF7 /* Main.storyboard */; };
@@ -14,6 +17,10 @@
 		A9DDC08B21D39C7600F3FFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9DDC08A21D39C7600F3FFF7 /* Assets.xcassets */; };
 		A9DDC08E21D39C7600F3FFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9DDC08C21D39C7600F3FFF7 /* LaunchScreen.storyboard */; };
 		A9DDC09921D39C7600F3FFF7 /* RestApiSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDC09821D39C7600F3FFF7 /* RestApiSampleAppTests.swift */; };
+		A9DDC0A421D3A1FE00F3FFF7 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDC0A321D3A1FE00F3FFF7 /* ListTableViewController.swift */; };
+		A9DDC0A721D3A4D600F3FFF7 /* AlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDC0A621D3A4D600F3FFF7 /* AlertController.swift */; };
+		A9DDC0A921D3A5B000F3FFF7 /* PersistantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDC0A821D3A5B000F3FFF7 /* PersistantService.swift */; };
+		A9DDC0AB21D3A62600F3FFF7 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9DDC0AA21D3A62600F3FFF7 /* UserInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A965EACE21D49ACF003BDDA4 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		A965EAD021D4A5DC003BDDA4 /* placehoder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placehoder.png; sourceTree = "<group>"; };
+		A965EAD221D4A748003BDDA4 /* img1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img1.jpg; sourceTree = "<group>"; };
 		A9DDC07D21D39C7500F3FFF7 /* RestApiSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestApiSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9DDC08021D39C7500F3FFF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9DDC08221D39C7500F3FFF7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +48,10 @@
 		A9DDC09421D39C7600F3FFF7 /* RestApiSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestApiSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9DDC09821D39C7600F3FFF7 /* RestApiSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApiSampleAppTests.swift; sourceTree = "<group>"; };
 		A9DDC09A21D39C7600F3FFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9DDC0A321D3A1FE00F3FFF7 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		A9DDC0A621D3A4D600F3FFF7 /* AlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertController.swift; sourceTree = "<group>"; };
+		A9DDC0A821D3A5B000F3FFF7 /* PersistantService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistantService.swift; sourceTree = "<group>"; };
+		A9DDC0AA21D3A62600F3FFF7 /* UserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A965EAD821D4AB1B003BDDA4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A9DDC0AA21D3A62600F3FFF7 /* UserInfo.swift */,
+				A9DDC08721D39C7500F3FFF7 /* RestApiSampleApp.xcdatamodeld */,
+				A9DDC0A821D3A5B000F3FFF7 /* PersistantService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A965EAD921D4AB54003BDDA4 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				A965EAD221D4A748003BDDA4 /* img1.jpg */,
+				A965EAD021D4A5DC003BDDA4 /* placehoder.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		A965EADA21D4AB68003BDDA4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A965EACE21D49ACF003BDDA4 /* CustomTableViewCell.swift */,
+				A9DDC08221D39C7500F3FFF7 /* ViewController.swift */,
+				A9DDC0A321D3A1FE00F3FFF7 /* ListTableViewController.swift */,
+				A9DDC0A621D3A4D600F3FFF7 /* AlertController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		A9DDC07421D39C7500F3FFF7 = {
 			isa = PBXGroup;
 			children = (
@@ -79,13 +123,14 @@
 		A9DDC07F21D39C7500F3FFF7 /* RestApiSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				A965EADA21D4AB68003BDDA4 /* Controllers */,
+				A965EAD921D4AB54003BDDA4 /* Images */,
+				A965EAD821D4AB1B003BDDA4 /* Model */,
 				A9DDC08021D39C7500F3FFF7 /* AppDelegate.swift */,
-				A9DDC08221D39C7500F3FFF7 /* ViewController.swift */,
 				A9DDC08421D39C7500F3FFF7 /* Main.storyboard */,
 				A9DDC08A21D39C7600F3FFF7 /* Assets.xcassets */,
 				A9DDC08C21D39C7600F3FFF7 /* LaunchScreen.storyboard */,
 				A9DDC08F21D39C7600F3FFF7 /* Info.plist */,
-				A9DDC08721D39C7500F3FFF7 /* RestApiSampleApp.xcdatamodeld */,
 			);
 			path = RestApiSampleApp;
 			sourceTree = "<group>";
@@ -180,6 +225,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A965EAD121D4A5DC003BDDA4 /* placehoder.png in Resources */,
+				A965EAD521D4A748003BDDA4 /* img1.jpg in Resources */,
 				A9DDC08E21D39C7600F3FFF7 /* LaunchScreen.storyboard in Resources */,
 				A9DDC08B21D39C7600F3FFF7 /* Assets.xcassets in Resources */,
 				A9DDC08621D39C7500F3FFF7 /* Main.storyboard in Resources */,
@@ -201,8 +248,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9DDC08921D39C7500F3FFF7 /* RestApiSampleApp.xcdatamodeld in Sources */,
+				A9DDC0A721D3A4D600F3FFF7 /* AlertController.swift in Sources */,
+				A965EACF21D49ACF003BDDA4 /* CustomTableViewCell.swift in Sources */,
 				A9DDC08321D39C7500F3FFF7 /* ViewController.swift in Sources */,
 				A9DDC08121D39C7500F3FFF7 /* AppDelegate.swift in Sources */,
+				A9DDC0A921D3A5B000F3FFF7 /* PersistantService.swift in Sources */,
+				A9DDC0AB21D3A62600F3FFF7 /* UserInfo.swift in Sources */,
+				A9DDC0A421D3A1FE00F3FFF7 /* ListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +347,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -350,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -367,6 +419,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L665RRN8MH;
 				INFOPLIST_FILE = RestApiSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -385,6 +438,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L665RRN8MH;
 				INFOPLIST_FILE = RestApiSampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
